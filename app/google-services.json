@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "357579242659",
+    "project_id": "lojaakatsuki-2fe13",
+    "storage_bucket": "lojaakatsuki-2fe13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357579242659:android:422ecfccb728a32f221316",
+        "android_client_info": {
+          "package_name": "com.example.aktsukimp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYY-F-e50WplRcPnWW4FezsfWfAHjBdaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357579242659:android:2651cd743d41711e221316",
+        "android_client_info": {
+          "package_name": "com.example.lojinhaakatsuki1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYY-F-e50WplRcPnWW4FezsfWfAHjBdaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
