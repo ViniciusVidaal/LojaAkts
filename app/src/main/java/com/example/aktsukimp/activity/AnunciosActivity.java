@@ -6,14 +6,9 @@ import android.os.Bundle;
 import android.view.Menu;
 
 import com.example.aktsukimp.R;
-import com.example.aktsukimp.activity.helper.ConfiguracaoFirebase;
-import com.google.firebase.auth.FirebaseAuth;
 
 public class AnunciosActivity extends AppCompatActivity {
 
-
-
-    private FirebaseAuth autenticacao = ConfiguracaoFirebase.getReferenciaAutenticacao();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +24,7 @@ public class AnunciosActivity extends AppCompatActivity {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
 
+        updateServiceGroup();
         return super.onPrepareOptionsMenu(menu);
     }
 }

@@ -3,17 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:id="@+id/group_logado">
         <item android:id="@+id/menu_anuncios"
-            android:title="Meus Anuncios"/>
+            android:title="Meus Anúcios" />
 
         <item android:id="@+id/menu_sair"
-            android:title="Sair"/>
+          android:title="Sair" />
+
     </group>
 
     <group android:id="@+id/group_deslogado">
 
-
         <item android:id="@+id/menu_cadastrar"
             android:title="Cadastrar / Entrar"
-            app:showAsAction = "always" />
+            app:showAsAction="always"/>
+
     </group>
+
 </menu>
