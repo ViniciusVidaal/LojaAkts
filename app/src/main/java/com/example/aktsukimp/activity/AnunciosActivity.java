@@ -24,7 +24,7 @@ public class AnunciosActivity extends AppCompatActivity {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
 
-        updateServiceGroup();
+
         return super.onPrepareOptionsMenu(menu);
     }
 }
