@@ -15,7 +15,6 @@
         <activity
             android:name=".activity.CadastroActivity"
             android:exported="false"
-            android:label="@string/title_activity_anuncios"
             android:theme="@style/Theme.AktsukiMp" />
         <activity
             android:name=".activity.AnunciosActivity"

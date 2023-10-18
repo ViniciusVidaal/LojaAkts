@@ -3,6 +3,7 @@ package com.example.aktsukimp.activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -56,6 +57,8 @@ public class CadastroActivity extends AppCompatActivity {
                                     if (task.isSuccessful()) {
                                         Toast.makeText(CadastroActivity.this, "Cadastro Realizado Com Sucesso!", Toast.LENGTH_SHORT).show();
 
+
+
                                     } else {
 
                                         String erroExcecao = "";
@@ -92,6 +95,7 @@ public class CadastroActivity extends AppCompatActivity {
                                         Toast.makeText(CadastroActivity.this,
                                                 "Logado Com Sucesso",
                                                 Toast.LENGTH_SHORT).show();
+                                        startActivity(new Intent(getApplicationContext(), AnunciosActivity.class));
 
                                     }else {
                                         Toast.makeText(CadastroActivity.this,
@@ -122,6 +126,5 @@ public class CadastroActivity extends AppCompatActivity {
         campoSenha = findViewById(R.id.editCadastroSenha);
         botaoAcessar = findViewById(R.id.buttonAcesso);
         tipoAcesso = findViewById(R.id.switchAcesso);
-
     }
 }
